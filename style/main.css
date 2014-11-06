@@ -619,6 +619,10 @@ hr {
   color: #f9f6f2;
 }
 
+.retry-button:hover {
+  background: #3D3934;
+}
+
 .sharing {
   margin-top: 20px;
   text-align: center; }
