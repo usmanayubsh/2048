@@ -591,7 +591,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #776e65;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -603,8 +603,21 @@ hr {
   text-align: center;
   float: right; }
 
+.restart-button:hover {
+  background: #3D3934;
+}
+
 .game-explanation {
   margin-top: 30px; }
+
+.game-explanation2 a {
+  text-decoration: none;
+}
+
+.game-explanation2 a:hover {
+  background: #3D3934;
+  color: #f9f6f2;
+}
 
 .sharing {
   margin-top: 20px;
@@ -1067,3 +1080,4 @@ hr {
       animation: pop-in-small 700ms ease 2s both;
       margin-top: 10px;
       height: 76px; } }
+
