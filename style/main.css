@@ -106,7 +106,7 @@ h2.subtitle {
   color: white;
   margin-top: 0px;
   text-align: center; }
-  .score-container:after, .best-container:after {
+.score-container:after, .best-container:after {
     position: absolute;
     width: 100%;
     top: 10px;
@@ -116,7 +116,7 @@ h2.subtitle {
     line-height: 13px;
     text-align: center;
     color: #eee4da; }
-  .score-container .score-addition, .best-container .score-addition {
+.score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
     color: red;
@@ -137,6 +137,10 @@ h2.subtitle {
 
 .best-container:after {
   content: "Best"; }
+
+.fb-share-button {
+  float: right;
+}
 
 p {
   margin-top: 0;
