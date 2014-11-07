@@ -37,10 +37,11 @@
         });
 
         FB.ui({
-          method: 'share_open_graph',
-          action_type: 'og.likes',
-          action_properties: JSON.stringify({
-          object:'https://http://usmanayubsh.github.io/2048/',
+         method: 'share_open_graph',
+         action_type: 'og.likes',
+         action_properties: JSON.stringify({
+          object:'http://usmanayubsh.github.io/2048/',
+         })
         }, function(response){});
       };
 
