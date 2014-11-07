@@ -36,13 +36,9 @@
           version    : 'v2.1'
         });
 
-        FB.ui({
-         method: 'share_open_graph',
-         action_type: 'og.likes',
-         action_properties: JSON.stringify({
-          object:'http://usmanayubsh.github.io/2048/',
-         })
-        }, function(response){});
+        FB.login(function(){
+         FB.api('/me/feed', 'post', {message: 'Hello, world!'});
+        }, {scope: 'publish_actions'});
       };
 
       (function(d, s, id){
