@@ -26,6 +26,16 @@
   <meta property="og:image" content="style/images/gameprtscr.png"/>
 </head>
 <body background="style/images/bg-image.jpg">
+  
+  <script>(function(d, s, id) 
+  {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1471300976479376&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  } (document, 'script', 'facebook-jssdk'));
+  </script>
 
   <div class="container">
     <div class="heading">
@@ -90,6 +100,7 @@
     This is a modified version of the <a href="http://gabrielecirulli.github.io/2048/" target="_blank">original game</a> created by Gabriele Cirulli.<br/> All the tile art is inspired by mattcantdraw's <a href = "http://mattcantdraw.deviantart.com/art/Alternative-Android-Logos-345898996" target = "_blank">Alternative Android Logos</a>.
     </p>
     <hr>
+    <div class="fb-share-button" data-href="http://usmanayubsh.github.io/2048/index_1.html" data-width="600px" data-layout="button_count"></div>
   </div>
 
   <script src="js/bind_polyfill.js"></script>
