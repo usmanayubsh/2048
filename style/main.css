@@ -627,7 +627,7 @@ hr {
 .share-area {
   width: 400px;
   height: 100px;
-  margin: auto;
+  margin: 42px 555px;
   float: right;
   position: fixed;
 }
