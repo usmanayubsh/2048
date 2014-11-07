@@ -1,4 +1,4 @@
-@import url(fonts/clear-sans.css);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic);
 html, body {
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
   color: #776e65;
-  font-family: Ubuntu, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 18px; }
 
 body {
