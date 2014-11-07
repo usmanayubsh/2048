@@ -138,10 +138,6 @@ h2.subtitle {
 .best-container:after {
   content: "Best"; }
 
-.fb-share-button {
-  float: left;
-}
-
 p {
   margin-top: 0;
   margin-bottom: 10px;
