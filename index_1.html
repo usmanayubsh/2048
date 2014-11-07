@@ -36,30 +36,8 @@
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1471300976479376&version=v2.0";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-    <div class="container">
     
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '1471300976479376',
-          xfbml      : true,
-          version    : 'v2.1'
-        });
-
-        FB.login(function(){
-         FB.api('/me/feed', 'post', {message: 'Hello, world!'});
-        }, {scope: 'publish_actions'});
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
-
+  <div class="container">
     <div class="heading">
       <a href="http://usmanayubsh.github.io/2048/"><h1 class="title">2048</h1>
       <h2 class="subtitle"> Wall-E Version</h1></a>
