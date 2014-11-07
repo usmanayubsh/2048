@@ -59,9 +59,10 @@ h1.title {
   float: left; }
 
 h2.subtitle {
-  margin: 5px 20px 5px -20px;
-  font-size: 25px;
+  margin: 5px auto;
+  font-size: 28px;
   font-weight: normal;
+  display: block;
   float: left; }
 
 @-webkit-keyframes move-up {
@@ -644,7 +645,8 @@ hr {
 
   body {
     margin-top: 0;
-    padding: 20px; }
+    padding: 20px;
+    }
 
   h1.title {
     font-size: 27px;
@@ -652,7 +654,8 @@ hr {
 
   .container {
     width: 280px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    }
 
   .score-container, .best-container {
     margin-top: 0;
